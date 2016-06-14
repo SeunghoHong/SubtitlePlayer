@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5307869c-d0fb-4024-ac94-790f7f877501++8654",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5307869c-d0fb-4024-ac94-790f7f877501++8654" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5307869c-d0fb-4024-ac94-790f7f877501++8654" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6B54480E-661B-4CF8-A482-5AE3AE042C40",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5307869c-d0fb-4024-ac94-790f7f877501++8654" : "sparrow\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SubtitlePlayer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "base\/ios\/SubtitlePlayer\/SubtitlePlayer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.inisoft.co.kr:8000\/svn\/media",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5307869c-d0fb-4024-ac94-790f7f877501++8654"
+    }
+  ]
+}
