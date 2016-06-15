@@ -18,12 +18,12 @@
 		6B4F3A971D07E61D00BCDF58 /* Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F3A961D07E61D00BCDF58 /* Title.m */; };
 		6BA16B021D090B1300C21CA5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA16B011D090B1300C21CA5 /* CoreMedia.framework */; };
 		6BA16B051D0912EB00C21CA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA16B041D0912EB00C21CA5 /* QuartzCore.framework */; };
-		6BC3F2FB1D116215000619D4 /* SubtitlePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F2FA1D116215000619D4 /* SubtitlePlayer.m */; };
 		6BC3F3071D1163A8000619D4 /* Ass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F2FE1D1163A8000619D4 /* Ass.m */; };
 		6BC3F3081D1163A8000619D4 /* Smi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F3001D1163A8000619D4 /* Smi.m */; };
 		6BC3F3091D1163A8000619D4 /* Srt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F3021D1163A8000619D4 /* Srt.m */; };
 		6BC3F30A1D1163A8000619D4 /* Ttml.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F3041D1163A8000619D4 /* Ttml.m */; };
 		6BC3F30B1D1163A8000619D4 /* Webvtt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F3061D1163A8000619D4 /* Webvtt.m */; };
+		6BC3F30E1D116466000619D4 /* SubtitlePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F30D1D116466000619D4 /* SubtitlePlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,8 +45,6 @@
 		6B4F3A961D07E61D00BCDF58 /* Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Title.m; sourceTree = "<group>"; };
 		6BA16B011D090B1300C21CA5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		6BA16B041D0912EB00C21CA5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		6BC3F2F91D116215000619D4 /* SubtitlePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitlePlayer.h; sourceTree = "<group>"; };
-		6BC3F2FA1D116215000619D4 /* SubtitlePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitlePlayer.m; sourceTree = "<group>"; };
 		6BC3F2FD1D1163A8000619D4 /* Ass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ass.h; sourceTree = "<group>"; };
 		6BC3F2FE1D1163A8000619D4 /* Ass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ass.m; sourceTree = "<group>"; };
 		6BC3F2FF1D1163A8000619D4 /* Smi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Smi.h; sourceTree = "<group>"; };
@@ -57,6 +55,8 @@
 		6BC3F3041D1163A8000619D4 /* Ttml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ttml.m; sourceTree = "<group>"; };
 		6BC3F3051D1163A8000619D4 /* Webvtt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webvtt.h; sourceTree = "<group>"; };
 		6BC3F3061D1163A8000619D4 /* Webvtt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webvtt.m; sourceTree = "<group>"; };
+		6BC3F30C1D116466000619D4 /* SubtitlePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitlePlayer.h; sourceTree = "<group>"; };
+		6BC3F30D1D116466000619D4 /* SubtitlePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitlePlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +142,8 @@
 		6BC3F2F81D116215000619D4 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				6BC3F2F91D116215000619D4 /* SubtitlePlayer.h */,
-				6BC3F2FA1D116215000619D4 /* SubtitlePlayer.m */,
+				6BC3F30C1D116466000619D4 /* SubtitlePlayer.h */,
+				6BC3F30D1D116466000619D4 /* SubtitlePlayer.m */,
 			);
 			name = Player;
 			path = Classes/Player;
@@ -247,7 +247,7 @@
 				6B4F3A631D07C84A00BCDF58 /* AppDelegate.m in Sources */,
 				6B4F3A601D07C84A00BCDF58 /* main.m in Sources */,
 				6B4F3A901D07E57600BCDF58 /* Subtitle.m in Sources */,
-				6BC3F2FB1D116215000619D4 /* SubtitlePlayer.m in Sources */,
+				6BC3F30E1D116466000619D4 /* SubtitlePlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
