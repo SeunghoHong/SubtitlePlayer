@@ -45,4 +45,16 @@
     }
 }
 
+- (void)parser:(NSXMLParser *)parser didStartMappingPrefix:(NSString *)prefix toURI:(NSString *)namespaceURI {
+
+}
+
+- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
+
+}
+
+- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(nullable NSString *)namespaceURI qualifiedName:(nullable NSString *)qName {
+
+}
+
 @end
