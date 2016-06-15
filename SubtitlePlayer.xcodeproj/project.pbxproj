@@ -13,17 +13,17 @@
 		6B4F3A691D07C84A00BCDF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4F3A671D07C84A00BCDF58 /* Main.storyboard */; };
 		6B4F3A6B1D07C84A00BCDF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4F3A6A1D07C84A00BCDF58 /* Assets.xcassets */; };
 		6B4F3A6E1D07C84A00BCDF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4F3A6C1D07C84A00BCDF58 /* LaunchScreen.storyboard */; };
-		6B4F3A8D1D07E57600BCDF58 /* Ass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F3A7E1D07E57600BCDF58 /* Ass.m */; };
-		6B4F3A8E1D07E57600BCDF58 /* Smi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F3A801D07E57600BCDF58 /* Smi.m */; };
-		6B4F3A8F1D07E57600BCDF58 /* Srt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F3A821D07E57600BCDF58 /* Srt.m */; };
 		6B4F3A901D07E57600BCDF58 /* Subtitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F3A841D07E57600BCDF58 /* Subtitle.m */; };
 		6B4F3A911D07E57600BCDF58 /* SubtitleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F3A861D07E57600BCDF58 /* SubtitleFactory.m */; };
-		6B4F3A921D07E57600BCDF58 /* SubtitlePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F3A881D07E57600BCDF58 /* SubtitlePlayer.m */; };
-		6B4F3A931D07E57600BCDF58 /* Ttml.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F3A8A1D07E57600BCDF58 /* Ttml.m */; };
-		6B4F3A941D07E57600BCDF58 /* Webvtt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F3A8C1D07E57600BCDF58 /* Webvtt.m */; };
 		6B4F3A971D07E61D00BCDF58 /* Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F3A961D07E61D00BCDF58 /* Title.m */; };
 		6BA16B021D090B1300C21CA5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA16B011D090B1300C21CA5 /* CoreMedia.framework */; };
 		6BA16B051D0912EB00C21CA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA16B041D0912EB00C21CA5 /* QuartzCore.framework */; };
+		6BC3F2FB1D116215000619D4 /* SubtitlePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F2FA1D116215000619D4 /* SubtitlePlayer.m */; };
+		6BC3F3071D1163A8000619D4 /* Ass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F2FE1D1163A8000619D4 /* Ass.m */; };
+		6BC3F3081D1163A8000619D4 /* Smi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F3001D1163A8000619D4 /* Smi.m */; };
+		6BC3F3091D1163A8000619D4 /* Srt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F3021D1163A8000619D4 /* Srt.m */; };
+		6BC3F30A1D1163A8000619D4 /* Ttml.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F3041D1163A8000619D4 /* Ttml.m */; };
+		6BC3F30B1D1163A8000619D4 /* Webvtt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3F3061D1163A8000619D4 /* Webvtt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,26 +37,26 @@
 		6B4F3A6A1D07C84A00BCDF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B4F3A6D1D07C84A00BCDF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B4F3A6F1D07C84A00BCDF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B4F3A7D1D07E57600BCDF58 /* Ass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ass.h; sourceTree = "<group>"; };
-		6B4F3A7E1D07E57600BCDF58 /* Ass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ass.m; sourceTree = "<group>"; };
-		6B4F3A7F1D07E57600BCDF58 /* Smi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Smi.h; sourceTree = "<group>"; };
-		6B4F3A801D07E57600BCDF58 /* Smi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Smi.m; sourceTree = "<group>"; };
-		6B4F3A811D07E57600BCDF58 /* Srt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Srt.h; sourceTree = "<group>"; };
-		6B4F3A821D07E57600BCDF58 /* Srt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Srt.m; sourceTree = "<group>"; };
 		6B4F3A831D07E57600BCDF58 /* Subtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subtitle.h; sourceTree = "<group>"; };
 		6B4F3A841D07E57600BCDF58 /* Subtitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subtitle.m; sourceTree = "<group>"; };
 		6B4F3A851D07E57600BCDF58 /* SubtitleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleFactory.h; sourceTree = "<group>"; };
 		6B4F3A861D07E57600BCDF58 /* SubtitleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleFactory.m; sourceTree = "<group>"; };
-		6B4F3A871D07E57600BCDF58 /* SubtitlePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitlePlayer.h; sourceTree = "<group>"; };
-		6B4F3A881D07E57600BCDF58 /* SubtitlePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitlePlayer.m; sourceTree = "<group>"; };
-		6B4F3A891D07E57600BCDF58 /* Ttml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ttml.h; sourceTree = "<group>"; };
-		6B4F3A8A1D07E57600BCDF58 /* Ttml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ttml.m; sourceTree = "<group>"; };
-		6B4F3A8B1D07E57600BCDF58 /* Webvtt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webvtt.h; sourceTree = "<group>"; };
-		6B4F3A8C1D07E57600BCDF58 /* Webvtt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webvtt.m; sourceTree = "<group>"; };
 		6B4F3A951D07E61D00BCDF58 /* Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Title.h; sourceTree = "<group>"; };
 		6B4F3A961D07E61D00BCDF58 /* Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Title.m; sourceTree = "<group>"; };
 		6BA16B011D090B1300C21CA5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		6BA16B041D0912EB00C21CA5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6BC3F2F91D116215000619D4 /* SubtitlePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitlePlayer.h; sourceTree = "<group>"; };
+		6BC3F2FA1D116215000619D4 /* SubtitlePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitlePlayer.m; sourceTree = "<group>"; };
+		6BC3F2FD1D1163A8000619D4 /* Ass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ass.h; sourceTree = "<group>"; };
+		6BC3F2FE1D1163A8000619D4 /* Ass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ass.m; sourceTree = "<group>"; };
+		6BC3F2FF1D1163A8000619D4 /* Smi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Smi.h; sourceTree = "<group>"; };
+		6BC3F3001D1163A8000619D4 /* Smi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Smi.m; sourceTree = "<group>"; };
+		6BC3F3011D1163A8000619D4 /* Srt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Srt.h; sourceTree = "<group>"; };
+		6BC3F3021D1163A8000619D4 /* Srt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Srt.m; sourceTree = "<group>"; };
+		6BC3F3031D1163A8000619D4 /* Ttml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ttml.h; sourceTree = "<group>"; };
+		6BC3F3041D1163A8000619D4 /* Ttml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ttml.m; sourceTree = "<group>"; };
+		6BC3F3051D1163A8000619D4 /* Webvtt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webvtt.h; sourceTree = "<group>"; };
+		6BC3F3061D1163A8000619D4 /* Webvtt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webvtt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				6B4F3A7C1D07E57600BCDF58 /* Subtitle */,
+				6BC3F2F81D116215000619D4 /* Player */,
 				6B4F3A611D07C84A00BCDF58 /* AppDelegate.h */,
 				6B4F3A621D07C84A00BCDF58 /* AppDelegate.m */,
 				6B4F3A641D07C84A00BCDF58 /* ViewController.h */,
@@ -117,24 +118,13 @@
 		6B4F3A7C1D07E57600BCDF58 /* Subtitle */ = {
 			isa = PBXGroup;
 			children = (
+				6BC3F2FC1D1163A8000619D4 /* Format */,
 				6B4F3A951D07E61D00BCDF58 /* Title.h */,
 				6B4F3A961D07E61D00BCDF58 /* Title.m */,
-				6B4F3A7D1D07E57600BCDF58 /* Ass.h */,
-				6B4F3A7E1D07E57600BCDF58 /* Ass.m */,
-				6B4F3A7F1D07E57600BCDF58 /* Smi.h */,
-				6B4F3A801D07E57600BCDF58 /* Smi.m */,
-				6B4F3A811D07E57600BCDF58 /* Srt.h */,
-				6B4F3A821D07E57600BCDF58 /* Srt.m */,
 				6B4F3A831D07E57600BCDF58 /* Subtitle.h */,
 				6B4F3A841D07E57600BCDF58 /* Subtitle.m */,
 				6B4F3A851D07E57600BCDF58 /* SubtitleFactory.h */,
 				6B4F3A861D07E57600BCDF58 /* SubtitleFactory.m */,
-				6B4F3A871D07E57600BCDF58 /* SubtitlePlayer.h */,
-				6B4F3A881D07E57600BCDF58 /* SubtitlePlayer.m */,
-				6B4F3A891D07E57600BCDF58 /* Ttml.h */,
-				6B4F3A8A1D07E57600BCDF58 /* Ttml.m */,
-				6B4F3A8B1D07E57600BCDF58 /* Webvtt.h */,
-				6B4F3A8C1D07E57600BCDF58 /* Webvtt.m */,
 			);
 			name = Subtitle;
 			path = Classes/Subtitle;
@@ -147,6 +137,33 @@
 				6BA16B011D090B1300C21CA5 /* CoreMedia.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BC3F2F81D116215000619D4 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				6BC3F2F91D116215000619D4 /* SubtitlePlayer.h */,
+				6BC3F2FA1D116215000619D4 /* SubtitlePlayer.m */,
+			);
+			name = Player;
+			path = Classes/Player;
+			sourceTree = "<group>";
+		};
+		6BC3F2FC1D1163A8000619D4 /* Format */ = {
+			isa = PBXGroup;
+			children = (
+				6BC3F2FD1D1163A8000619D4 /* Ass.h */,
+				6BC3F2FE1D1163A8000619D4 /* Ass.m */,
+				6BC3F2FF1D1163A8000619D4 /* Smi.h */,
+				6BC3F3001D1163A8000619D4 /* Smi.m */,
+				6BC3F3011D1163A8000619D4 /* Srt.h */,
+				6BC3F3021D1163A8000619D4 /* Srt.m */,
+				6BC3F3031D1163A8000619D4 /* Ttml.h */,
+				6BC3F3041D1163A8000619D4 /* Ttml.m */,
+				6BC3F3051D1163A8000619D4 /* Webvtt.h */,
+				6BC3F3061D1163A8000619D4 /* Webvtt.m */,
+			);
+			path = Format;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,18 +236,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC3F3091D1163A8000619D4 /* Srt.m in Sources */,
 				6B4F3A971D07E61D00BCDF58 /* Title.m in Sources */,
-				6B4F3A931D07E57600BCDF58 /* Ttml.m in Sources */,
+				6BC3F30A1D1163A8000619D4 /* Ttml.m in Sources */,
 				6B4F3A911D07E57600BCDF58 /* SubtitleFactory.m in Sources */,
+				6BC3F30B1D1163A8000619D4 /* Webvtt.m in Sources */,
 				6B4F3A661D07C84A00BCDF58 /* ViewController.m in Sources */,
+				6BC3F3081D1163A8000619D4 /* Smi.m in Sources */,
+				6BC3F3071D1163A8000619D4 /* Ass.m in Sources */,
 				6B4F3A631D07C84A00BCDF58 /* AppDelegate.m in Sources */,
-				6B4F3A921D07E57600BCDF58 /* SubtitlePlayer.m in Sources */,
 				6B4F3A601D07C84A00BCDF58 /* main.m in Sources */,
 				6B4F3A901D07E57600BCDF58 /* Subtitle.m in Sources */,
-				6B4F3A8F1D07E57600BCDF58 /* Srt.m in Sources */,
-				6B4F3A941D07E57600BCDF58 /* Webvtt.m in Sources */,
-				6B4F3A8E1D07E57600BCDF58 /* Smi.m in Sources */,
-				6B4F3A8D1D07E57600BCDF58 /* Ass.m in Sources */,
+				6BC3F2FB1D116215000619D4 /* SubtitlePlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
